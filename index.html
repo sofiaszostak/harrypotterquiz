@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Outfit&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="estilos.css">
+    <title>⚡Harry Potter Quiz⚡</title>
+</head>
+<body>  
+
+  <header> 
+
+    <h1>¿Cuánto sabes de Harry Potter?</h1>
+
+  </header>
+
+
+    <div id="container">
+        <div id="comenzar">Empezar</div>
+
+        <div id="trivia" style="display:none">
+
+            
+            <div id="pregunta"></div> 
+                <div id="pImg"></div>
+                
+                <div id="opciones">
+                    <div class="opcion" id="a" onclick="verificarRta ('a')">A</div>
+                    <div class="opcion" id="b" onclick="verificarRta ('b')">B</div>
+                    <div class="opcion" id="c" onclick="verificarRta ('c')">C</div>
+                </div>
+    
+            
+            <div id="temporizador">
+
+             <div id="contador"></div> 
+             <div id="btimeGauge"></div> 
+             <div id="indicadorTiempo"></div>
+
+            </div>
+                
+            <div id="progresoUsuario"></div>
+                
+            
+
+            
+            
+
+        </div>
+
+        <div id="puntaje" style="display: none"></div>
+
+        
+    </div> 
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="hpquiz.js"></script>
+    
+</body>
+</html>

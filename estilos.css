@@ -1,0 +1,194 @@
+    * {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+        text-decoration: none;
+        box-sizing: border-box;
+    }
+
+    body{
+        font-size: 20px;
+        font-family: 'Outfit', sans-serif; 
+        background: rgb(38,36,38);
+        background: linear-gradient(337deg, rgba(38,36,38,1) 21%, rgba(113,85,166,1) 74%);
+        height: 100vh;
+    } 
+
+    h1 {
+        text-align: center; 
+        color: aliceblue;  
+        
+    }
+
+    #container{
+            margin : 3em auto;
+            
+            height: 80vh;
+            width : 32em;
+            
+            box-shadow: 0px 5px 15px 0px;
+            position: relative; 
+            
+            background: rgba(240, 228, 240, 0.21);
+            border-radius: 16px;
+            box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+            backdrop-filter: blur(10.7px);
+            -webkit-backdrop-filter: blur(10.7px);
+            border: 1px solid rgba(240, 228, 240, 0.64);
+    }
+
+
+    #comenzar{
+            font-size: 1.5em;
+            font-weight: bolder;
+            
+            width:10em;
+            height:2.5em;
+            border : 5px solid lightgrey; 
+            border-radius: 10px;
+            text-align: center;
+            cursor: pointer;
+            position: absolute;
+            left:5.5em;
+            top:5em;
+            color : lightgrey;
+    }
+    #comenzar:hover{
+        border: 2px solid #beed08;
+        color : #beed08;
+    }
+
+    #pImg{
+        width : 200px;
+        height : 200px;
+        position: absolute;
+        left : 0px;
+        top : 0px;
+    }
+    #pImg img{
+        width : 400px;
+        height : 230px; 
+        margin-top: 3em; 
+        margin-left: 5em;
+        border-top-left-radius: 5px;
+    }
+
+    #pregunta{
+        width:28.5em;
+        height : 125px;
+        color: white; 
+        position: absolute;
+        right:0; 
+        
+        top:0;
+    }
+    #pregunta p{
+        margin : 0;
+        padding : 15px;
+        font-size: 20px;
+    }
+
+    #opciones{
+        width : 480px;
+        position: absolute;
+        right : 0;
+        margin-top: 15em; 
+        margin-right: 3.5em; 
+        padding : 10px
+    }
+    .opcion{
+        display: inline-block;
+        width : 135px;
+        text-align: center;
+        border : 2px solid #beed08; 
+        background-color: transparent;  
+        color: white; 
+        border-radius: 5px;
+        cursor: pointer;
+        padding : 5px;
+        font-size: 15px; 
+    }
+    .opcion:hover{
+        border : 1px solid white;
+        color: black; 
+        font-weight: bold; 
+        background-color: #beed08; 
+        
+        
+    }
+
+    #temporizador{
+        position: absolute;
+        height : 100px;
+        width : 200px;
+        bottom : 0px;
+        text-align: center;
+    }
+    #contador{
+        font-size: 3em;
+        color: #beed08;
+    }
+    #btimeGauge{
+        width : 150px;
+        height : 10px;
+        border-radius: 10px;
+        background-color: lightgray;
+        margin-left : 25px;
+    }
+    #indicadorTiempo{
+        height : 10px;
+        border-radius: 10px;
+        background-color: mediumseagreen;
+        margin-top : -10px;
+        margin-left : 25px;
+    }
+    #progresoUsuario{
+        width : 500px;
+        position: absolute;
+        bottom : 0px;
+        right : 0px;
+        padding:5px;
+        text-align: right;
+    }
+    .prog{
+        width : 25px;
+        height : 25px;
+        border: 1px solid #000;
+        display: inline-block;
+        border-radius: 50%;
+        margin-left : 5px;
+        margin-right : 5px;
+    }
+    #puntaje{
+        height: 80vh;
+            width : 32em;
+            
+            box-shadow: 0px 5px 15px 0px;
+            position: relative; 
+            background: rgba(190, 237, 8, 0.55);
+            border-radius: 16px;
+            box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+            backdrop-filter: blur(6.6px);
+        -webkit-backdrop-filter: blur(6.6px);
+            border: 1px solid rgba(190, 237, 8, 0.3);
+
+    } 
+
+
+
+    #puntaje p{
+    
+        display: block;
+        
+        margin-top: 2em; 
+        font-size: 50px;
+        font-weight: bold;
+        text-align: center;
+    } 
+
+
+    .txtPuntaje {
+        text-align: center; 
+        font-size: 30px;  
+        margin-top: 7em; 
+    }
